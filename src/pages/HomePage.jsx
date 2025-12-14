@@ -1,10 +1,13 @@
 import React from "react";
 import Hero from "../component/Hero";
 import { portfolioData } from "../portfolioData";
+import { useDocumentTitle } from "../hooks/useDocumentTitle";
 
 const HomePage = () => {
+  useDocumentTitle("Home");
+
   return (
-    <div className="pt-20">
+    <div>
       <Hero
         profileImage={portfolioData.personal.profileImage}
         name={portfolioData.personal.name}

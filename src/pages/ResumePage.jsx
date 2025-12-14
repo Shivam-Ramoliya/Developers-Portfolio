@@ -1,16 +1,30 @@
 import React from "react";
 import Resume from "../component/Resume";
+import PageTitleHero from "../component/PageTitleHero";
+import AnimatedContent from "../component/AnimatedContent";
 import { portfolioData } from "../portfolioData";
+import { useDocumentTitle } from "../hooks/useDocumentTitle";
 
 const ResumePage = () => {
+  useDocumentTitle("Resume");
+
   return (
-    <div className="pt-20">
-      <Resume
-        resumePdfUrl={portfolioData.resume.pdfUrl}
-        experience={portfolioData.resume.experience}
-        education={portfolioData.resume.education}
+    <>
+      <PageTitleHero
+        title="My"
+        gradientText="Resume"
+        description="My professional journey and qualifications"
       />
-    </div>
+      <AnimatedContent>
+        <div className="pt-20">
+          <Resume
+            resumePdfUrl={portfolioData.resume.pdfUrl}
+            experience={portfolioData.resume.experience}
+            education={portfolioData.resume.education}
+          />
+        </div>
+      </AnimatedContent>
+    </>
   );
 };
 
