@@ -53,32 +53,6 @@ const Skills = ({ skillCategories }) => {
             </div>
           ))}
         </div>
-
-        {/* Additional Skills Tags - Responsive sizing and spacing */}
-        <div className="mt-12 md:mt-16">
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white text-center mb-6 md:mb-8">
-            Other Technologies
-          </h3>
-          <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
-            {[
-              "Redis",
-              "Docker",
-              "AWS",
-              "Firebase",
-              "REST API",
-              "Agile",
-              "Jest",
-              "Webpack",
-            ].map((tech, index) => (
-              <span
-                key={index}
-                className="px-4 py-2 sm:px-6 sm:py-3 bg-white dark:bg-slate-800 text-gray-700 dark:text-gray-300 rounded-full text-sm font-medium shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 border border-gray-200 dark:border-slate-700"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

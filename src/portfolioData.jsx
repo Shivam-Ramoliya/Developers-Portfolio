@@ -107,7 +107,7 @@ export const portfolioData = {
   // Skills
   skillCategories: [
     {
-      title: "Programming Languages",
+      title: "Languages",
       icon: "📚",
       skills: [
         {
@@ -162,25 +162,25 @@ export const portfolioData = {
           ),
         },
         {
-          name: "JavaScript",
+          name: "SQL",
           svgIcon: (
             <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <rect width="48" height="48" fill="#F7DF1E" rx="4" />
+              <rect width="48" height="48" fill="#00758F" rx="4" />
               <text
                 x="24"
                 y="32"
-                fontSize="18"
-                fill="#323330"
+                fontSize="16"
+                fill="white"
                 textAnchor="middle"
                 fontWeight="bold"
               >
-                JS
+                SQL
               </text>
             </svg>
           ),
         },
         {
-          name: "MATLAB",
+          name: "Matlab",
           svgIcon: (
             <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
               <rect width="48" height="48" fill="#0078D4" rx="4" />
@@ -198,7 +198,7 @@ export const portfolioData = {
           ),
         },
         {
-          name: "HTML5",
+          name: "HTML",
           svgIcon: (
             <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
               <path fill="#E34C26" d="M6 6h36l-3 34-15 4-15-4z" />
@@ -207,7 +207,7 @@ export const portfolioData = {
           ),
         },
         {
-          name: "CSS3",
+          name: "CSS",
           svgIcon: (
             <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
               <path fill="#264DE4" d="M6 6h36l-3 34-15 4-15-4z" />
@@ -215,132 +215,21 @@ export const portfolioData = {
             </svg>
           ),
         },
-      ],
-    },
-    {
-      title: "Frontend & Frameworks",
-      icon: "💻",
-      skills: [
         {
-          name: "React",
+          name: "JavaScript",
           svgIcon: (
             <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="24" r="4" fill="#61DAFB" />
-              <circle
-                cx="24"
-                cy="24"
-                r="16"
-                fill="none"
-                stroke="#61DAFB"
-                strokeWidth="2"
-              />
-              <circle cx="24" cy="10" r="2" fill="#61DAFB" />
-              <circle cx="34" cy="32" r="2" fill="#61DAFB" />
-              <circle cx="14" cy="32" r="2" fill="#61DAFB" />
-            </svg>
-          ),
-        },
-        {
-          name: "Vite",
-          svgIcon: (
-            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <polygon points="24,6 42,38 6,38" fill="#646CFF" />
-              <polygon points="24,14 34,30 14,30" fill="white" />
-            </svg>
-          ),
-        },
-        {
-          name: "Tailwind CSS",
-          svgIcon: (
-            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="24" r="20" fill="#38B2AC" />
-              <path
-                d="M16 28c-2.5 0-4-1-4-2.5s1.5-2.5 4-2.5c.2-.8.5-1.5 1-2C15 19 12 20.5 12 23c0 2 2.5 3.5 4.5 3.5.5.7.9 1.5 1.2 2.3z"
-                fill="white"
-                opacity="0.7"
-              />
-            </svg>
-          ),
-        },
-      ],
-    },
-    {
-      title: "Backend & Frameworks",
-      icon: "⚙️",
-      skills: [
-        {
-          name: "Node.js",
-          svgIcon: (
-            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <path
-                fill="#68A063"
-                d="M24 6c9.9 0 18 8.1 18 18s-8.1 18-18 18S6 33.9 6 24 14.1 6 24 6z"
-              />
-              <path fill="white" d="M20 22h8v2h-8zm0 4h8v2h-8z" />
-            </svg>
-          ),
-        },
-        {
-          name: "Express",
-          svgIcon: (
-            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <rect width="48" height="48" fill="#000" rx="4" />
+              <rect width="48" height="48" fill="#F7DF1E" rx="4" />
               <text
                 x="24"
                 y="32"
                 fontSize="18"
-                fill="white"
+                fill="#323330"
                 textAnchor="middle"
                 fontWeight="bold"
               >
-                E
+                JS
               </text>
-            </svg>
-          ),
-        },
-      ],
-    },
-    {
-      title: "Databases",
-      icon: "💾",
-      skills: [
-        {
-          name: "MongoDB",
-          svgIcon: (
-            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <path
-                fill="#13AA52"
-                d="M24 8c-7 3-10 10-10 14 0 7 4.8 12.5 10 14.5 5.2-2 10-7.5 10-14.5 0-4-3-11-10-14z"
-              />
-              <ellipse cx="24" cy="10" rx="3" ry="2" fill="#13AA52" />
-            </svg>
-          ),
-        },
-        {
-          name: "PostgreSQL",
-          svgIcon: (
-            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="24" r="18" fill="#336791" />
-              <path
-                d="M24 14c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm0 4c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6z"
-                fill="white"
-              />
-            </svg>
-          ),
-        },
-        {
-          name: "SupaBase",
-          svgIcon: (
-            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <rect x="8" y="8" width="32" height="32" fill="#3FCF8E" rx="4" />
-              <path
-                d="M20 16l8 18 8-18"
-                stroke="white"
-                strokeWidth="1.5"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
             </svg>
           ),
         },
@@ -363,7 +252,7 @@ export const portfolioData = {
           ),
         },
         {
-          name: "GitHub",
+          name: "Github",
           svgIcon: (
             <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
               <circle cx="24" cy="24" r="20" fill="#181717" />
@@ -419,52 +308,214 @@ export const portfolioData = {
           ),
         },
         {
-          name: "Vercel",
+          name: "pgAdmin",
           svgIcon: (
             <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <polygon points="24,8 8,40 40,40" fill="#000" />
-              <polygon points="24,16 16,32 32,32" fill="#fff" />
-            </svg>
-          ),
-        },
-        {
-          name: "Render",
-          svgIcon: (
-            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <rect width="48" height="48" fill="#46E3B7" rx="4" />
+              <rect width="48" height="48" fill="#336791" rx="4" />
               <text
                 x="24"
                 y="32"
-                fontSize="16"
+                fontSize="14"
                 fill="white"
                 textAnchor="middle"
                 fontWeight="bold"
               >
-                R
+                pgAdmin
               </text>
             </svg>
           ),
         },
         {
-          name: "Railway",
+          name: "Jupyter Notebook",
           svgIcon: (
             <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
-              <rect width="48" height="48" fill="#0B0D0E" rx="4" />
+              <circle cx="24" cy="24" r="20" fill="#F37626" />
+              <circle cx="24" cy="12" r="2" fill="white" />
+              <circle cx="24" cy="36" r="2" fill="white" />
+              <circle cx="24" cy="24" r="2" fill="white" />
+            </svg>
+          ),
+        },
+        {
+          name: "Cursor",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#000" rx="4" />
               <path
-                d="M24 10L36 16v16L24 38L12 32V16L24 10z"
-                fill="none"
-                stroke="#0EA5E9"
-                strokeWidth="1.5"
+                d="M12 12l12 24 6-12 12-6z"
+                fill="#4A9EFF"
+                stroke="white"
+                strokeWidth="1"
               />
-              <circle cx="24" cy="24" r="3" fill="#0EA5E9" />
             </svg>
           ),
         },
       ],
     },
     {
-      title: "Libraries & Ecosystem",
-      icon: "✨",
+      title: "Frameworks",
+      icon: "⚡",
+      skills: [
+        {
+          name: "React.js",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="4" fill="#61DAFB" />
+              <circle
+                cx="24"
+                cy="24"
+                r="16"
+                fill="none"
+                stroke="#61DAFB"
+                strokeWidth="2"
+              />
+              <circle cx="24" cy="10" r="2" fill="#61DAFB" />
+              <circle cx="34" cy="32" r="2" fill="#61DAFB" />
+              <circle cx="14" cy="32" r="2" fill="#61DAFB" />
+            </svg>
+          ),
+        },
+        {
+          name: "Vite",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <polygon points="24,6 42,38 6,38" fill="#646CFF" />
+              <polygon points="24,14 34,30 14,30" fill="white" />
+            </svg>
+          ),
+        },
+        {
+          name: "Node.js",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <path
+                fill="#68A063"
+                d="M24 6c9.9 0 18 8.1 18 18s-8.1 18-18 18S6 33.9 6 24 14.1 6 24 6z"
+              />
+              <path fill="white" d="M20 22h8v2h-8zm0 4h8v2h-8z" />
+            </svg>
+          ),
+        },
+        {
+          name: "Express.js",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#000" rx="4" />
+              <text
+                x="24"
+                y="32"
+                fontSize="18"
+                fill="white"
+                textAnchor="middle"
+                fontWeight="bold"
+              >
+                E
+              </text>
+            </svg>
+          ),
+        },
+        {
+          name: "Tailwind CSS",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="20" fill="#38B2AC" />
+              <path
+                d="M16 28c-2.5 0-4-1-4-2.5s1.5-2.5 4-2.5c.2-.8.5-1.5 1-2C15 19 12 20.5 12 23c0 2 2.5 3.5 4.5 3.5.5.7.9 1.5 1.2 2.3z"
+                fill="white"
+                opacity="0.7"
+              />
+            </svg>
+          ),
+        },
+      ],
+    },
+    {
+      title: "Cloud/Databases",
+      icon: "☁️",
+      skills: [
+        {
+          name: "MongoDB",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <path
+                fill="#13AA52"
+                d="M24 8c-7 3-10 10-10 14 0 7 4.8 12.5 10 14.5 5.2-2 10-7.5 10-14.5 0-4-3-11-10-14z"
+              />
+              <ellipse cx="24" cy="10" rx="3" ry="2" fill="#13AA52" />
+            </svg>
+          ),
+        },
+        {
+          name: "Mongoose ODM",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#800000" rx="4" />
+              <circle
+                cx="24"
+                cy="24"
+                r="10"
+                fill="none"
+                stroke="#fff"
+                strokeWidth="1.5"
+              />
+            </svg>
+          ),
+        },
+        {
+          name: "PostgreSQL",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="18" fill="#336791" />
+              <path
+                d="M24 14c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm0 4c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6z"
+                fill="white"
+              />
+            </svg>
+          ),
+        },
+        {
+          name: "SupaBase",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect x="8" y="8" width="32" height="32" fill="#3FCF8E" rx="4" />
+              <path
+                d="M20 16l8 18 8-18"
+                stroke="white"
+                strokeWidth="1.5"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          ),
+        },
+        {
+          name: "Firebase",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <path d="M24 38L8 28L12 8l8 14 4-8 16 12z" fill="#FFA000" />
+              <path d="M24 38L8 28l4-4 12 8z" fill="#F57C00" />
+            </svg>
+          ),
+        },
+        {
+          name: "Redis",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#DC382D" rx="4" />
+              <path
+                d="M12 20l12-4 12 4v8l-12 4-12-4z"
+                fill="white"
+                opacity="0.8"
+              />
+            </svg>
+          ),
+        },
+      ],
+    },
+    {
+      title: "Libraries",
+      icon: "📦",
       skills: [
         {
           name: "Mongoose",
@@ -483,7 +534,7 @@ export const portfolioData = {
           ),
         },
         {
-          name: "React Router",
+          name: "React-Router-Dom",
           svgIcon: (
             <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
               <circle cx="24" cy="24" r="3" fill="#F04231" />
@@ -529,6 +580,336 @@ export const portfolioData = {
               >
                 B
               </text>
+            </svg>
+          ),
+        },
+      ],
+    },
+    {
+      title: "Coursework",
+      icon: "📖",
+      skills: [
+        {
+          name: "Data Structures & Algorithms",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#4CAF50" rx="4" />
+              <circle cx="12" cy="12" r="2" fill="white" />
+              <circle cx="36" cy="12" r="2" fill="white" />
+              <circle cx="12" cy="36" r="2" fill="white" />
+              <circle cx="36" cy="36" r="2" fill="white" />
+              <line
+                x1="12"
+                y1="12"
+                x2="36"
+                y2="12"
+                stroke="white"
+                strokeWidth="1.5"
+              />
+              <line
+                x1="12"
+                y1="12"
+                x2="12"
+                y2="36"
+                stroke="white"
+                strokeWidth="1.5"
+              />
+              <line
+                x1="36"
+                y1="12"
+                x2="36"
+                y2="36"
+                stroke="white"
+                strokeWidth="1.5"
+              />
+              <line
+                x1="12"
+                y1="36"
+                x2="36"
+                y2="36"
+                stroke="white"
+                strokeWidth="1.5"
+              />
+            </svg>
+          ),
+        },
+        {
+          name: "Database Management System",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#FF9800" rx="4" />
+              <ellipse cx="24" cy="14" rx="12" ry="4" fill="white" />
+              <path
+                d="M12 14v6c0 2.2 5.4 4 12 4s12-1.8 12-4v-6"
+                fill="none"
+                stroke="white"
+                strokeWidth="1.5"
+              />
+              <path
+                d="M12 20v6c0 2.2 5.4 4 12 4s12-1.8 12-4v-6"
+                fill="none"
+                stroke="white"
+                strokeWidth="1.5"
+              />
+            </svg>
+          ),
+        },
+        {
+          name: "Design & Analysis of Algorithm",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#9C27B0" rx="4" />
+              <path
+                d="M12 36L24 12L36 36"
+                fill="none"
+                stroke="white"
+                strokeWidth="2"
+              />
+              <circle cx="24" cy="24" r="3" fill="white" />
+            </svg>
+          ),
+        },
+        {
+          name: "Object Oriented Programming",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#2196F3" rx="4" />
+              <rect x="12" y="12" width="10" height="10" fill="white" rx="1" />
+              <rect x="26" y="12" width="10" height="10" fill="white" rx="1" />
+              <rect x="12" y="26" width="10" height="10" fill="white" rx="1" />
+              <rect x="26" y="26" width="10" height="10" fill="white" rx="1" />
+            </svg>
+          ),
+        },
+        {
+          name: "Computer Networks",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#00BCD4" rx="4" />
+              <circle cx="12" cy="24" r="3" fill="white" />
+              <circle cx="24" cy="24" r="3" fill="white" />
+              <circle cx="36" cy="24" r="3" fill="white" />
+              <line
+                x1="15"
+                y1="24"
+                x2="21"
+                y2="24"
+                stroke="white"
+                strokeWidth="1.5"
+              />
+              <line
+                x1="27"
+                y1="24"
+                x2="33"
+                y2="24"
+                stroke="white"
+                strokeWidth="1.5"
+              />
+            </svg>
+          ),
+        },
+        {
+          name: "Human-Computer Interaction",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#E91E63" rx="4" />
+              <circle cx="18" cy="18" r="5" fill="white" />
+              <path d="M18 24v8M14 28h8" stroke="white" strokeWidth="2" />
+              <rect x="28" y="14" width="12" height="16" fill="white" rx="1" />
+            </svg>
+          ),
+        },
+      ],
+    },
+    {
+      title: "Other Technologies",
+      icon: "🚀",
+      skills: [
+        {
+          name: "REST API",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#61AFFE" rx="4" />
+              <text
+                x="24"
+                y="32"
+                fontSize="14"
+                fill="white"
+                textAnchor="middle"
+                fontWeight="bold"
+              >
+                REST
+              </text>
+            </svg>
+          ),
+        },
+        {
+          name: "Agile",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#009688" rx="4" />
+              <path d="M12 24h8v8h-8zm12-8h8v16h-8z" fill="white" />
+            </svg>
+          ),
+        },
+        {
+          name: "Jest",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#C21325" rx="4" />
+              <text
+                x="24"
+                y="32"
+                fontSize="16"
+                fill="white"
+                textAnchor="middle"
+                fontWeight="bold"
+              >
+                Jest
+              </text>
+            </svg>
+          ),
+        },
+        {
+          name: "Vercel",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <polygon points="24,8 8,40 40,40" fill="#000" />
+              <polygon points="24,16 16,32 32,32" fill="#fff" />
+            </svg>
+          ),
+        },
+        {
+          name: "Render",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#46E3B7" rx="4" />
+              <text
+                x="24"
+                y="32"
+                fontSize="16"
+                fill="white"
+                textAnchor="middle"
+                fontWeight="bold"
+              >
+                R
+              </text>
+            </svg>
+          ),
+        },
+        {
+          name: "Railway",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#0B0D0E" rx="4" />
+              <path
+                d="M24 10L36 16v16L24 38L12 32V16L24 10z"
+                fill="none"
+                stroke="#0EA5E9"
+                strokeWidth="1.5"
+              />
+              <circle cx="24" cy="24" r="3" fill="#0EA5E9" />
+            </svg>
+          ),
+        },
+        {
+          name: "Netlify",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#00C7B7" rx="4" />
+              <path d="M24 12l12 12-12 12-12-12z" fill="white" />
+            </svg>
+          ),
+        },
+        {
+          name: "Lovable",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#FF6B9D" rx="4" />
+              <path
+                d="M24 34c-5-4-10-8-10-12 0-3 2-5 5-5 2 0 4 1 5 3 1-2 3-3 5-3 3 0 5 2 5 5 0 4-5 8-10 12z"
+                fill="white"
+              />
+            </svg>
+          ),
+        },
+      ],
+    },
+    {
+      title: "Soft Skills",
+      icon: "💡",
+      skills: [
+        {
+          name: "Team Collaboration",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#673AB7" rx="4" />
+              <circle cx="18" cy="18" r="4" fill="white" />
+              <circle cx="30" cy="18" r="4" fill="white" />
+              <path
+                d="M18 24c-4 0-8 2-8 5v3h16v-3c0-3-4-5-8-5z"
+                fill="white"
+                opacity="0.7"
+              />
+              <path
+                d="M30 24c-4 0-8 2-8 5v3h16v-3c0-3-4-5-8-5z"
+                fill="white"
+                opacity="0.7"
+              />
+            </svg>
+          ),
+        },
+        {
+          name: "Leadership",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#FF5722" rx="4" />
+              <circle cx="24" cy="16" r="5" fill="white" />
+              <path d="M24 24l8 4v8l-8 4-8-4v-8z" fill="white" opacity="0.8" />
+            </svg>
+          ),
+        },
+        {
+          name: "Problem Solving",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#FFC107" rx="4" />
+              <path d="M24 10l6 12h-12z" fill="white" />
+              <rect
+                x="18"
+                y="24"
+                width="12"
+                height="12"
+                fill="white"
+                opacity="0.8"
+              />
+            </svg>
+          ),
+        },
+        {
+          name: "Communication",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#03A9F4" rx="4" />
+              <path d="M12 32V16l20-4v20l-20 4z" fill="white" />
+              <circle cx="32" cy="24" r="4" fill="white" opacity="0.7" />
+            </svg>
+          ),
+        },
+        {
+          name: "Time Management",
+          svgIcon: (
+            <svg className="w-full h-full" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" fill="#607D8B" rx="4" />
+              <circle
+                cx="24"
+                cy="24"
+                r="12"
+                fill="none"
+                stroke="white"
+                strokeWidth="2"
+              />
+              <path d="M24 24V14M24 24h8" stroke="white" strokeWidth="2" />
             </svg>
           ),
         },
